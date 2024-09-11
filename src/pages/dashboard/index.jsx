@@ -14,7 +14,7 @@ const index = () => {
       try {
         const token = localStorage.getItem("token");
         const response = await axios.get(
-          `${process.env.REACT_APP_API_URI}/api/user/profile`,
+          `https://${process.env.REACT_APP_API_URI}/api/user/profile`,
           {
             headers: {
               Authorization: token,
