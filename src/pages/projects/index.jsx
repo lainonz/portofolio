@@ -1,23 +1,41 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faLaravel, faBootstrap } from "@fortawesome/free-brands-svg-icons";
+import {
+  faLaravel,
+  faBootstrap,
+  faWordpress,
+  faElementor,
+} from "@fortawesome/free-brands-svg-icons";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
+
+import HRImage from "../../assets/images/hr.png";
+import TPJImage from "../../assets/images/tpj.png";
 
 const index = () => {
   const technologyIcons = {
     Bootstrap: faBootstrap,
     Laravel: faLaravel,
+
+    Wordpress: faWordpress,
+    WPElementor: faElementor,
   };
 
   const blogs = [
     {
       id: 1,
-      title: "Chichen Itza",
-      description: "Fingerstache flexitarian street art...",
-      image:
-        "https://media.suara.com/pictures/653x366/2024/06/01/22800-cuplikan-anime-bocchi-the-rock.jpg",
-      link: "/blogs/chichen-itza",
+      title: "Human Resource",
+      description: "Project PKL yang sedang dikembangkan sekarang",
+      image: HRImage,
+      link: "#",
       technologies: ["Laravel", "Bootstrap"],
+    },
+    {
+      id: 1,
+      title: "The Papandayan Jazz Festival",
+      description: "Project PKL yang sedang dikembangkan sekarang",
+      image: TPJImage,
+      link: "#",
+      technologies: ["Wordpress", "WPElementor"],
     },
   ];
 
