@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
+import { faBarsStaggered, faTimes } from "@fortawesome/free-solid-svg-icons";
 import { Winds, BrandGithub, Envelope } from "@mynaui/icons-react";
 
 const Navbar = ({ github, email }) => {
@@ -58,7 +58,7 @@ const Navbar = ({ github, email }) => {
             </Link>
           </div>
           <button onClick={toggleMenu} className="text-2xl">
-            <FontAwesomeIcon icon={isMenuOpen ? faTimes : faBars} />
+            <FontAwesomeIcon icon={isMenuOpen ? faTimes : faBarsStaggered} />
           </button>
         </div>
         <div

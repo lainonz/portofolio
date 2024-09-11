@@ -4,9 +4,11 @@ import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import Profile from "./components/Profile";
 
-import Blog from "./pages/blogs/index"; // Import komponen Blogs
-import Project from "./pages/projects/index"; // Import komponen Blogs
+import Blog from "./pages/blogs/index";
+import Project from "./pages/projects/index";
 import NotFound from "./pages/NotFound";
+import AdminLogin from "./pages/admin/login";
+import Dashboard from "./pages/dashboard/index";
 
 function App() {
   const gh = "https://github.com/lainonz";
@@ -22,6 +24,8 @@ function App() {
               <Route path="/" element={<Profile github={gh} email={em} />} />
               <Route path="/blog" element={<Blog />} />
               <Route path="/project" element={<Project />} />
+              <Route path="/0xadmin" element={<AdminLogin />} />
+              <Route path="/0xadmindash" element={<Dashboard />} />
               <Route path="*" element={<NotFound />} />
             </Routes>
           </main>
