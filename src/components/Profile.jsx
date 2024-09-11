@@ -23,10 +23,14 @@ const Profile = ({ email, github }) => {
           animate={{ opacity: 0.75, y: 0 }}
           transition={{ duration: 0.6, ease: "easeInOut", delay: 0.3 }}
         >
-          <div className="my-3">
+          <div className="my-3 md:flex md:space-x-2">
             <p>Hai 👋, Saya Herlangga Maulani</p>
-            <p className="opacity-75 font-bold text-red-500 mb-3">
-              Fullstack Laravel Developer
+            <p>
+              (
+              <span className="opacity-75 font-bold text-red-500 mb-3">
+                Web Developer
+              </span>
+              )
             </p>
           </div>
           <p>
