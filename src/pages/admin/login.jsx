@@ -12,7 +12,7 @@ const Login = () => {
     e.preventDefault();
     try {
       const response = await axios.post(
-        `https://${import.meta.env.VITE_API_URI}/api/auth/login`,
+        `${import.meta.env.VITE_API_URI}/api/auth/login`,
         {
           username,
           password,
@@ -21,9 +21,7 @@ const Login = () => {
       localStorage.setItem("token", response.data.token);
       navigate("/0xadmindash");
     } catch (err) {
-      setError(
-        err.response ? err.response.data.message : "Something went wrong"
-      );
+      setError(err.response ? err.response.data.message : "Login Failed");
     }
   };
 

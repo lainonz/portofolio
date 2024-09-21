@@ -3,3 +3,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .prose strong {
+    @apply text-secondary; /* Ganti dengan warna yang sesuai */
+  }
+  .prose a {
+    @apply text-blue-500; /* Ganti dengan warna yang sesuai */
+  }
+  .prose h2 {
+    @apply text-secondary; /* Ganti dengan warna yang sesuai */
+  }
+}

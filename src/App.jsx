@@ -7,8 +7,12 @@ import Profile from "./components/Profile";
 import Blog from "./pages/blogs/index";
 import Project from "./pages/projects/index";
 import NotFound from "./pages/NotFound";
+
 import AdminLogin from "./pages/admin/login";
 import Dashboard from "./pages/dashboard/index";
+import AdminBlog from "./pages/admin/blog";
+import AdminAddBlog from "./pages/admin/addblog";
+import ReadBlog from "./pages/blogs/readblog";
 
 function App() {
   const gh = "https://github.com/lainonz";
@@ -24,8 +28,11 @@ function App() {
               <Route path="/" element={<Profile github={gh} email={em} />} />
               <Route path="/blog" element={<Blog />} />
               <Route path="/project" element={<Project />} />
+              <Route path="/blogs/:id" element={<ReadBlog />} />
               <Route path="/0xadmin" element={<AdminLogin />} />
               <Route path="/0xadmindash" element={<Dashboard />} />
+              <Route path="/0xadminblog" element={<AdminBlog />} />
+              <Route path="/0xadminaddblog" element={<AdminAddBlog />} />
               <Route path="*" element={<NotFound />} />
             </Routes>
           </main>
