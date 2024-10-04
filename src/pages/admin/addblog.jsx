@@ -125,7 +125,7 @@ const AddBlog = () => {
           <label>
             Konten:
             <Editor
-              apiKey="mrabwgnrv128p215bqq2darah5ub5985b2g18di8jph5ll52" // Ganti dengan kunci API Anda
+              apiKey="mrabwgnrv128p215bqq2darah5ub5985b2g18di8jph5ll52" // bruh my tinymce api leaked :(
               initialValue="<p>Konten di sini...</p>"
               init={{
                 plugins: [
