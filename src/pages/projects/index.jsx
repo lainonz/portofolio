@@ -4,12 +4,14 @@ import {
   faBootstrap,
   faWordpress,
   faElementor,
+  faReact,
 } from "@fortawesome/free-brands-svg-icons";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 
 import HRImage from "../../assets/images/hr.png";
 import TPJImage from "../../assets/images/tpj.png";
+import BMKGImage from "../../assets/images/bmkg.png";
 
 const index = () => {
   const technologyIcons = {
@@ -18,9 +20,20 @@ const index = () => {
 
     Wordpress: faWordpress,
     WPElementor: faElementor,
+
+    "React.js": faReact,
   };
 
   const blogs = [
+    {
+      id: 1,
+      title: "Data Cuaca & Gempa BMKG",
+      description:
+        "Perkiraan cuaca dan gempa di Indonesia menggunakan api dari BMKG",
+      image: BMKGImage,
+      link: "https://github.com/lainonz/bmkg",
+      technologies: ["React.js"],
+    },
     {
       id: 1,
       title: "Human Resource",
