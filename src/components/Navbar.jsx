@@ -23,6 +23,9 @@ const Navbar = ({ github, email }) => {
         </div>
         <ul className="flex space-x-5 items-center">
           <li>
+            <Link to="/skill">Skill / TechStack</Link>
+          </li>
+          <li>
             <Link to="/blog">Blog</Link>
           </li>
           <li>

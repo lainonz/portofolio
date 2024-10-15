@@ -11,6 +11,7 @@ import { motion } from "framer-motion";
 
 import HRImage from "../../assets/images/hr.png";
 import TPJImage from "../../assets/images/tpj.png";
+import ANImage from "../../assets/images/anime.png";
 import BMKGImage from "../../assets/images/bmkg.png";
 
 const index = () => {
@@ -36,20 +37,29 @@ const index = () => {
     },
     {
       id: 1,
-      title: "Human Resource",
-      description: "Project PKL yang sedang dikembangkan sekarang",
-      image: HRImage,
-      link: "#",
-      technologies: ["Laravel", "Bootstrap"],
+      title: "StreamingAnime",
+      description:
+        "Streaming website anime subindo menggunakan scraping otakudesu",
+      image: ANImage,
+      link: "https://a.herlangga.my.id",
+      technologies: ["React.js"],
     },
-    {
-      id: 1,
-      title: "The Papandayan Jazz Festival",
-      description: "Project PKL yang sedang dikembangkan sekarang",
-      image: TPJImage,
-      link: "#",
-      technologies: ["Wordpress", "WPElementor"],
-    },
+    // {
+    //   id: 1,
+    //   title: "Human Resource",
+    //   description: "Project PKL yang sedang dikembangkan sekarang",
+    //   image: HRImage,
+    //   link: "#",
+    //   technologies: ["Laravel", "Bootstrap"],
+    // },
+    // {
+    //   id: 1,
+    //   title: "The Papandayan Jazz Festival",
+    //   description: "Project PKL yang sedang dikembangkan sekarang",
+    //   image: TPJImage,
+    //   link: "#",
+    //   technologies: ["Wordpress", "WPElementor"],
+    // },
   ];
 
   return (

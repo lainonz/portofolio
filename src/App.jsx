@@ -13,6 +13,7 @@ import Dashboard from "./pages/dashboard/index";
 import AdminBlog from "./pages/admin/blog";
 import AdminAddBlog from "./pages/admin/addblog";
 import ReadBlog from "./pages/blogs/readblog";
+import Index from "./pages/techstack/Index";
 
 function App() {
   const gh = "https://github.com/lainonz";
@@ -26,6 +27,7 @@ function App() {
           <main className="flex-grow">
             <Routes>
               <Route path="/" element={<Profile github={gh} email={em} />} />
+              <Route path="/skill" element={<Index />} />
               <Route path="/blog" element={<Blog />} />
               <Route path="/project" element={<Project />} />
               <Route path="/blogs/:id" element={<ReadBlog />} />
