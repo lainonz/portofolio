@@ -11,11 +11,11 @@ const ParticleBackground = () => {
     const options = {
       particleColor: "rgba(255,255,255)",
       lineColor: "rgba(0,181,255)",
-      particleAmount: 20,
+      particleAmount: 30,
       defaultRadius: 1,
       variantRadius: 1,
-      defaultSpeed: 3,
-      variantSpeed: 3,
+      defaultSpeed: 1,
+      variantSpeed: 1,
       linkRadius: 300,
     };
     const rgb = options.lineColor.match(/\d+/g);
