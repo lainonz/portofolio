@@ -1,10 +1,12 @@
 import { BrandGithub, Envelope } from "@mynaui/icons-react";
 import { motion } from "framer-motion";
+import ParticleBackground from "./Particlebg";
 
 const Profile = ({ email, github }) => {
   return (
     <>
-      <section className="text-secondary max-w-xl mx-auto font-lexend">
+      <section className="text-secondary max-w-2xl mx-auto font-lexend relative">
+        <ParticleBackground />
         <motion.div
           className="flex items-end gap-2"
           initial={{ opacity: 0, y: -50 }}
@@ -34,11 +36,13 @@ const Profile = ({ email, github }) => {
             </p>
           </div>
           <p>
-            Saya seorang pengembang web yang masih bersekolah. Saya telah
-            menciptakan beberapa proyek kecil dan menengah. Saya mencari
-            kesempatan untuk terlibat dalam proyek yang lebih besar dan
-            menantang. Selain itu, saya juga tertarik pada keamanan siber,
-            Linux, Manga dan Anime.
+            Saya seorang pengembang web yang masih bersekolah dan memiliki
+            pengalaman dalam mengerjakan proyek-proyek kecil hingga menengah.
+            Saya tertarik untuk bergabung dalam proyek yang lebih besar dan
+            menantang. Di samping pengembangan web, saya juga memiliki minat
+            pada keamanan siber, khususnya Linux dan Web Pentesting. Saya
+            sesekali bermain Capture The Flag (CTF) untuk meningkatkan
+            keterampilan keamanan siber saya.
           </p>
           <br />
           <p>
@@ -81,6 +85,13 @@ const Profile = ({ email, github }) => {
             </a>
           </li>
         </ul>
+        <div className="mt-6 flex justify-center">
+          <iframe
+            src="https://tryhackme.com/api/v2/badges/public-profile?userPublicId=3698819"
+            className="w-full"
+            style={{ border: "none", overflow: "hidden" }}
+          ></iframe>
+        </div>
       </section>
     </>
   );

@@ -14,7 +14,6 @@ import AdminBlog from "./pages/admin/blog";
 import AdminAddBlog from "./pages/admin/addblog";
 import ReadBlog from "./pages/blogs/readblog";
 import Index from "./pages/techstack/Index";
-
 function App() {
   const gh = "https://github.com/lainonz";
   const em = "mailto:herlangga.maulani@gmail.com";
