@@ -23,7 +23,7 @@ const Navbar = ({ github, email }) => {
         </div>
         <ul className="flex space-x-5 items-center">
           <li>
-            <Link to="/skill">Skill / TechStack</Link>
+            <Link to="/certificate">Certificate</Link>
           </li>
           <li>
             <Link to="/blog">Blog</Link>
@@ -76,6 +76,9 @@ const Navbar = ({ github, email }) => {
             <FontAwesomeIcon icon={faTimes} />
           </button>
           <div className="flex flex-col mt-14 items-center p-6 space-y-4 relative">
+            <Link to="/certificate" className="text-lg" onClick={toggleMenu}>
+              Certificate
+            </Link>
             {/* Add the close button inside the menu */}
             <Link to="/blog" className="text-lg" onClick={toggleMenu}>
               Blog

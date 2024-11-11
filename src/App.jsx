@@ -14,6 +14,7 @@ import AdminBlog from "./pages/admin/blog";
 import AdminAddBlog from "./pages/admin/addblog";
 import ReadBlog from "./pages/blogs/readblog";
 import Index from "./pages/techstack/Index";
+import Certificate from "./pages/certificate/Index";
 function App() {
   const gh = "https://github.com/lainonz";
   const em = "mailto:herlangga.maulani@gmail.com";
@@ -30,6 +31,7 @@ function App() {
               <Route path="/blog" element={<Blog />} />
               <Route path="/project" element={<Project />} />
               <Route path="/blogs/:id" element={<ReadBlog />} />
+              <Route path="/certificate" element={<Certificate />} />
               <Route path="/0xadmin" element={<AdminLogin />} />
               <Route path="/0xadmindash" element={<Dashboard />} />
               <Route path="/0xadminblog" element={<AdminBlog />} />
