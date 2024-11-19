@@ -85,13 +85,6 @@ const Profile = ({ email, github }) => {
             </a>
           </li>
         </ul>
-        <div className="mt-6 flex justify-center">
-          <iframe
-            src="https://tryhackme.com/api/v2/badges/public-profile?userPublicId=3698819"
-            className="w-full"
-            style={{ border: "none", overflow: "hidden" }}
-          ></iframe>
-        </div>
       </section>
     </>
   );
