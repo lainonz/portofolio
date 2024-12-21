@@ -6,7 +6,7 @@ const Profile = ({ email, github }) => {
   return (
     <>
       <section className="text-secondary max-w-2xl mx-auto font-lexend relative">
-        <ParticleBackground />
+        {/* <ParticleBackground /> */}
         <motion.div
           className="flex items-end gap-2"
           initial={{ opacity: 0, y: -50 }}

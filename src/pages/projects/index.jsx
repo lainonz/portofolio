@@ -13,6 +13,7 @@ import HRImage from "../../assets/images/hr.png";
 import TPJImage from "../../assets/images/tpj.png";
 import ANImage from "../../assets/images/anime.png";
 import BMKGImage from "../../assets/images/bmkg.png";
+import ElysiaImage from "../../assets/images/elysia.png";
 
 const index = () => {
   const technologyIcons = {
@@ -26,6 +27,15 @@ const index = () => {
   };
 
   const blogs = [
+    {
+      id: 1,
+      title: "Elysia Bot Whatsapp",
+      description:
+        "Bot whatsapp untuk mengobrol dan membantu tugas sehari-hari menggunakan Gemini Ai, dan beberapa api public untuk mendukung tools lainnya",
+      image: ElysiaImage,
+      link: "https://wa.me/6289655403985?text=/help",
+      technologies: [],
+    },
     {
       id: 1,
       title: "Data Cuaca & Gempa BMKG",
