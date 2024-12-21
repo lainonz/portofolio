@@ -13,7 +13,7 @@ import HRImage from "../../assets/images/hr.png";
 import TPJImage from "../../assets/images/tpj.png";
 import ANImage from "../../assets/images/anime.png";
 import BMKGImage from "../../assets/images/bmkg.png";
-import ElysiaImage from "../../assets/images/elysia.png";
+import ElysiaImage from "../../assets/images/Elysia.png";
 
 const index = () => {
   const technologyIcons = {
