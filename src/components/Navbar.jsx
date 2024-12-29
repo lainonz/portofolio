@@ -26,7 +26,7 @@ const Navbar = ({ github, email }) => {
             <Link to="/certificate">Certificate</Link>
           </li>
           <li>
-            <Link to="red.herlangga.my.id">Blog</Link>
+            <Link to="https://red.herlangga.my.id">Blog</Link>
           </li>
           <li>
             <Link to="/project">Projects</Link>
@@ -81,7 +81,7 @@ const Navbar = ({ github, email }) => {
             </Link>
             {/* Add the close button inside the menu */}
             <Link
-              to="red.herlangga.my.id"
+              to="https://red.herlangga.my.id"
               className="text-lg"
               onClick={toggleMenu}
             >
