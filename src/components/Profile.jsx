@@ -36,18 +36,18 @@ const Profile = ({ email, github }) => {
             </p>
           </div>
           <p>
-            Saya seorang pengembang web yang masih bersekolah dan memiliki
-            pengalaman dalam mengerjakan proyek-proyek kecil hingga menengah.
-            Saya tertarik untuk bergabung dalam proyek yang lebih besar dan
-            menantang. Di samping pengembangan web, saya juga memiliki minat
-            pada keamanan siber, khususnya Linux dan Web Pentesting. Saya
-            sesekali bermain Capture The Flag (CTF) untuk meningkatkan
-            keterampilan keamanan siber saya.
-          </p>
-          <br />
+            Seorang pengembang web yang masih bersekolah dengan pengalaman dalam
+            mengerjakan berbagai proyek kecil hingga menengah. Tertarik untuk
+            bergabung dalam proyek yang lebih besar dan menantang guna mengasah
+            keterampilan lebih lanjut. Selain pengembangan web, minat juga
+            tertuju pada keamanan siber, khususnya Network Penetration Testing.
+            Sesekali berpartisipasi dalam Capture The Flag (CTF) sebagai sarana
+            meningkatkan kemampuan di bidang keamanan siber.
+          </p>{" "}
+          <br />{" "}
           <p>
-            Jika Anda memiliki kesempatan yang cocok untuk saya, jangan ragu
-            untuk menghubungi saya. Terima kasih! ✨
+            Jika ada peluang yang sesuai, jangan ragu untuk menghubungi. Terima
+            kasih! ✨
           </p>
         </motion.div>
 

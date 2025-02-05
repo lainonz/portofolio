@@ -49,6 +49,28 @@ const Index = () => {
             </a>
           </p> */}
         </div>
+        <div className="rounded-md">
+          <img
+            src="/cert/itb.jpeg"
+            alt="Institut Teknologi Bandung"
+            width={600}
+            height={500}
+            className="rounded-md mx-auto"
+          />
+          {/* <h1 className="text-center text-2xl font-bold mt-2">
+            Certificate of Appreciation From KPK
+          </h1> */}
+          {/* <p className="w-[80%] text-center mx-auto">
+            Menemukan kerentanan information disclosure pada subdomain milik{" "}
+            <a
+              href="https://www.kpk.go.id"
+              target="_blank"
+              className="text-blue-500 underline"
+            >
+              kpk.go.id
+            </a>
+          </p> */}
+        </div>
       </section>
     </>
   );
