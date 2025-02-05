@@ -4,7 +4,7 @@ const Index = () => {
       <h1 className="text-center text-secondary text-opacity-70 text-3xl font-bold mb-6">
         Certificate
       </h1>
-      <section className="flex flex-col md:flex-row items-center justify-center gap-4">
+      <section className="flex flex-col md:flex-row items-center justify-center gap-4 flex-wrap">
         <div className="rounded-md">
           <img
             src="/cert/kpk.png"
